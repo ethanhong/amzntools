@@ -7,6 +7,6 @@
 // @match        https://aftlite-portal.amazon.com/*
 // @match        https://aftlite-na.amazon.com/*
 // @match        https://como-operations-dashboard-iad.iad.proxy.amazon.com/*
-// @require      https://ethanhong.github.io/amzn-script/libs/clock.min.js
+// @require      https://ethanhong.github.io/amzntools/libs/clock.min.js
 // ==/UserScript==
 clock();
