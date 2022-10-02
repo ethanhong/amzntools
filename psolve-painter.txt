@@ -5,6 +5,6 @@
 // @description  Color p-solves by pull time
 // @author       Pei
 // @match        https://aftlite-na.amazon.com/wms/view_dwell_time?type=status&value=problem-solve
-// @require      https://ethanhong.github.io/amzn-script/libs/psolvle-painter.min.js
+// @require      https://ethanhong.github.io/amzntools/libs/psolvle-painter.min.js
 // ==/UserScript==
 psolvePainter();
