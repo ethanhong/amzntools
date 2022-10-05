@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Ultimate Order View
-// @namespace    https://github.com/ethanhong/amzn-script
+// @namespace    https://github.com/ethanhong/amzntools
 // @version      2.0
 // @description  enhance order view ultimate/cloud/React version
 // @author       Pei
