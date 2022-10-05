@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         P-solve Painter
-// @namespace    https://github.com/ethanhong/amzn-script
+// @namespace    https://github.com/ethanhong/amzntools
 // @version      1.0
 // @description  Color p-solves by pull time
 // @author       Pei
