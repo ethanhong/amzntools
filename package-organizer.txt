@@ -10,4 +10,4 @@
 // @require      https://unpkg.com/react-dom@18/umd/react-dom.production.min.js
 // @require      https://ethanhong.github.io/amzntools/libs/package-organizer.js
 // ==/UserScript==
-packageSummarizer();
+createNewTable();
