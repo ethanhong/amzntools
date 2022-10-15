@@ -1,23 +1,17 @@
 // ==UserScript==
 // @name         Smart Labor Track
 // @namespace    https://github.com/ethanhong/amzntools
-// @version      2.0
+// @version      2.1
 // @description  Sign in to OBindirect according to current action
 // @author       Pei
 // @match        https://aftlite-na.amazon.com/indirect_action/signin_indirect_action*
+// @match        https://aftlite-portal.amazon.com/indirect_action*
 // @require      https://ethanhong.github.io/amzntools/libs/smart-labor-track.min.js
 // ==/UserScript==
 
-// activity which you'd like to be checked in
-const activity = 'OBINDIRECT';
+const activity = 'OBINDIRECT'; // activity you'd like to be checked in
+const skip = ['EOS', 'ASM', 'BATCHING']; // activities which would be skipped (targetActivity will always be skipped)
+const period = 5; // period to check current activity (in minutes)
+const brkTime = 10; // break time (in minutes)
 
-// activities which would be overwrite (targetActivity will always be skipped)
-const skip = ['EOS', 'ASM', 'BATCHING'];
-
-// period to check current status (in minutes)
-const period = 5;
-
-// delay time after BRK (in minutes)
-const brkTime = 10;
-
-smartLaborTrack(activity, skip, period, brkTime);
+startLaborTrack(activity, skip, period, brkTime);
