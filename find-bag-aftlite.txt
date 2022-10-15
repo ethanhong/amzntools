@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Find Bags [AftLite]
+// @name         Find Bags [aftLite]
 // @namespace    https://github.com/ethanhong/amzntools
 // @version      1.0
 // @description  find bag tool - aftlite part
