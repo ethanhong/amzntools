@@ -1,0 +1,12 @@
+// ==UserScript==
+// @name         Find Bags [como]
+// @namespace    https://github.com/ethanhong/amzntools
+// @version      1.0
+// @description  find bag tool - como part
+// @author       Pei
+// @match        https://como-operations-dashboard-iad.iad.proxy.amazon.com/store/*/labor*
+// @require      https://unpkg.com/react@18/umd/react.production.min.js
+// @require      https://unpkg.com/react-dom@18/umd/react-dom.production.min.js
+// @require      https://ethanhong.github.io/amzntools/libs/find-bag-como.min.js
+// ==/UserScript==
+startBagFinder();
